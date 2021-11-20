@@ -1,7 +1,12 @@
 body {
   margin: 0;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;  
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  gap: 400px;
+  flex-direction: column;  
 }
+
+/* Header */
 
 .header {
     display: flex;
@@ -9,6 +14,7 @@ body {
     justify-content: space-between;
     background-color: #1f2937;
     color: #f9faf8;
+    font-size: 24px;
     font-weight: bold;
 }
 
@@ -21,9 +27,31 @@ body {
     padding-left: 128px;
 }
 
+a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: #f9faf8;
+  }
+
 ul {
     list-style-type: none;
     display: flex;
     padding: 8px;
     gap: 16px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+
+/* Quote Section */
+.quote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: lighter;
+    padding: 72px;
 }
