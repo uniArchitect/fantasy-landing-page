@@ -85,4 +85,26 @@ ul {
 
 .quote-bottom{
     font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer{
+    background: #3882f6;
+    color: #e5e7eb;
+    margin: 72px;
+    padding: 24px;
+    border-style: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sign-up{
+    background: #3882f6;
+    padding-left: 36px;
+    padding-right: 36px;
+    color:#e5e7eb;
+    border-style: solid;
+    border-radius: 10px;
 }
