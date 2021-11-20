@@ -42,6 +42,26 @@ ul {
     font-weight: normal;
 }
 
+/*Hero Section*/
+.hero{
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 128px;
+    padding-right: 128px;
+}
+
+.sit-intro-body{
+    font-size: medium;
+    font-weight: normal;
+}
+
+
+
 /*Image Panel - Middle Section*/
 .image-panel-title{
     display: flex;
