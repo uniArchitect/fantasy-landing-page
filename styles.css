@@ -2,12 +2,10 @@ body {
   margin: 0;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
-  gap: 400px;
   flex-direction: column;  
 }
 
 /* Header */
-
 .header {
     display: flex;
     align-items: center;
@@ -42,6 +40,17 @@ ul {
     font-weight: normal;
 }
 
+/*Image Panel - Middle Section*/
+.image-panel{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 72px;
+}
+
+.image{
+    list-style: none;
+}
 
 /* Quote Section */
 .quote{
