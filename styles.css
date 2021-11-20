@@ -45,11 +45,15 @@ ul {
     display:flex;
     align-items: center;
     justify-content: space-around;
-    padding: 72px;
+    padding: 120px;
 }
 
 .image{
-    list-style: none;
+    background:none;
+    border: #3882f6;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 72px 72px;
 }
 
 /* Quote Section */
