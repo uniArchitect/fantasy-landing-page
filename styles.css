@@ -10,8 +10,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 128px;
-    padding-right: 128px;
+    padding-left: 256px;
+    padding-right: 256px;
     background-color: #1f2937;
     color: #f9faf8;
     font-size: 24px;
@@ -21,10 +21,6 @@ body {
 .left, .right {
     display: flex;
     justify-content: space-between;
-}
-
-.logo {
-    padding-left: 128px;
 }
 
 a {
@@ -46,21 +42,41 @@ ul {
 .hero{
     background-color: #1f2937;
     color: #f9faf8;
-    font-size: 24px;
-    font-weight: bold;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding-left: 128px;
-    padding-right: 128px;
+    justify-content: space-between;
+    padding: 48px;
+    padding-left: 256px;
+    padding-right: 256px;
 }
 
-.sit-intro-body{
-    font-size: medium;
+.site-intro-title{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.site-intro-body{
+    font-size: 18px;
     font-weight: normal;
+    padding-top: 18px;
+    padding-bottom: 18px;
 }
 
+.sign-up-hero{
+    background: #3882f6;
+    padding-left: 36px;
+    padding-right: 36px;
+    font-size: 18px;
+    color:#e5e7eb;
+    border: none;
+    border-radius: 10px;
+}
 
+.hero-image{
+    width: 640px;
+    height: 256px;
+    padding: 24px;
+    display: flex;
+}
 
 /*Image Panel - Middle Section*/
 .image-panel-title{
@@ -125,6 +141,7 @@ ul {
     padding-left: 36px;
     padding-right: 36px;
     color:#e5e7eb;
+    font-size: 18px;
     border-style: solid;
     border-radius: 10px;
 }
