@@ -92,7 +92,7 @@ ul {
     display:flex;
     align-items: center;
     justify-content: space-around;
-    padding: 48px;
+    padding-top: 48px;
     padding-right: 512px;
     padding-left: 512px;
 }
@@ -103,6 +103,23 @@ ul {
     border-style: solid;
     border-radius: 8px;
     padding: 72px 72px;
+}
+
+.image-text{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 12px;
+    padding-bottom: 48px;
+    padding-right: 512px;
+    padding-left: 512px;
+}
+
+.text{
+    color: gray;
+    text-align: center;
+    inline-size: 140px;
+    overflow-wrap: break-word;
 }
 
 /* Quote Section */
